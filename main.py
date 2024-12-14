@@ -13,7 +13,7 @@ st.set_page_config(
 )
 
 st.title("📊Data Analysis Web App")
-st.sidebar.image("logo/images.png", caption='Data Exploring App')
+st.sidebar.image("images.png", caption='Data Exploring App')
 st.sidebar.header("Input Features")
 
 tab1, tab2, tab3 = st.tabs(['EDA', "Data Cleaning", "Modelling"])
